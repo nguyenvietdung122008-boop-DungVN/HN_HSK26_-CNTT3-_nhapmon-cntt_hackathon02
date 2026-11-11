@@ -11,15 +11,14 @@
 ### Các lệnh đã chạy
 
 ```shell
-pwd
-ls -r -Force
-mv .\yeu_cau_khach_hang.txt .\docs\
-mkdir backup
-cp .\data\don_in_thang_6.xlsx .\backup\
-rm -r *.tmp
-cd .\logs\
-ls -r
-cd ..
+PS C:\dung\starter-kit\xuong-in-website> pwd
+PS C:\dung\starter-kit\xuong-in-website> ls
+PS C:\dung\starter-kit\xuong-in-website> Move-Item -Path "yeu_cau_khach_hang.txt" -Destination "docs"
+PS C:\dung\starter-kit\xuong-in-website> mkdir "backup"
+PS C:\dung\starter-kit\xuong-in-website>  copy-item "data\don_in_thang_6.xlsx" "backup\don_in_thang_6.xlsx"
+PS C:\dung\starter-kit\xuong-in-website> Remove-Item "*.tmp"
+PS C:\dung\starter-kit\xuong-in-website> cd "logs"
+PS C:\dung\starter-kit\xuong-in-website\logs> cd..
 ```
 
 ### Kết quả liệt kê toàn bộ dự án (Windows: Get-ChildItem -Recurse -Force; macOS: ls -aR)
