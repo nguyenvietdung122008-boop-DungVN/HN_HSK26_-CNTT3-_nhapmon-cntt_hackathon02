@@ -24,70 +24,71 @@ PS C:\dung\starter-kit\xuong-in-website\logs> cd..
 ### Kết quả liệt kê toàn bộ dự án (Windows: Get-ChildItem -Recurse -Force; macOS: ls -aR)
 
 ```text
-    Directory: D:\starter-kit\xuong-in-website
+( Directory: C:\dung\starter-kit\xuong-in-website
 
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d-----        11/11/2026  10:50 AM                backup
-d-----        11/11/2026  10:46 AM                data
-d-----        11/11/2026  10:49 AM                docs
-d-----        11/11/2026  10:45 AM                evidence
-d-----        11/11/2026  10:46 AM                logs
-d-----        11/03/2026   7:07 AM                web
--a----        11/03/2026   7:07 AM             76 .env
--a----        11/11/2026  10:51 AM           2607 bai_lam.md
+d-----        11/11/2026  11:05 AM                backup
+d-----        11/11/2026  10:58 AM                data
+d-----        11/11/2026  11:05 AM                docs
+d-----        11/11/2026  10:55 AM                evindence
+d-----        11/11/2026  10:58 AM                logs
+d-----        11/11/2026  10:48 AM                web
+------         11/3/2026   7:07 AM             76 .env
+-a----         11/3/2026   7:07 AM           2407 bai_lam.md
 
 
-    Directory: D:\starter-kit\xuong-in-website\backup
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        11/03/2026   7:07 AM           6137 don_in_thang_6.xlsx
-
-
-    Directory: D:\starter-kit\xuong-in-website\data
+    Directory: C:\dung\starter-kit\xuong-in-website\backup
 
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
--a----        11/03/2026   7:07 AM           6137 don_in_thang_6.xlsx
+-a----        11/11/2026  10:49 AM          11329 don_in_thang_6.xlsx
 
 
-    Directory: D:\starter-kit\xuong-in-website\docs
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        11/03/2026   7:07 AM            153 yeu_cau_khach_hang.txt
-
-
-    Directory: D:\starter-kit\xuong-in-website\logs
+    Directory: C:\dung\starter-kit\xuong-in-website\data
 
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
--a----        11/03/2026   7:07 AM            981 order.log
+-a----        11/11/2026  10:49 AM          11329 don_in_thang_6.xlsx
 
 
-    Directory: D:\starter-kit\xuong-in-website\web
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        11/03/2026   7:07 AM                images
--a----        11/03/2026   7:07 AM            594 app.js
--a----        11/03/2026   7:07 AM            516 index.html
--a----        11/03/2026   7:07 AM            460 style.css
-
-
-    Directory: D:\starter-kit\xuong-in-website\web\images
+    Directory: C:\dung\starter-kit\xuong-in-website\docs
 
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
--a----        11/03/2026   7:07 AM           3092 logo-printnow.png
+-a----         11/3/2026   7:07 AM            153 yeu_cau_khach_hang.txt
+
+
+    Directory: C:\dung\starter-kit\xuong-in-website\logs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         11/3/2026   7:07 AM            981 order.log
+
+
+    Directory: C:\dung\starter-kit\xuong-in-website\web
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11/11/2026  10:48 AM                images
+------         11/3/2026   7:07 AM            594 app.js
+------         11/3/2026   7:07 AM            516 index.html
+------         11/3/2026   7:07 AM            460 style.css
+
+
+    Directory: C:\dung\starter-kit\xuong-in-website\web\images
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+------         11/3/2026   7:07 AM           3092 logo-printnow.png
+)
 ```
 
 ## 4.3. Lọc log truy cập website
