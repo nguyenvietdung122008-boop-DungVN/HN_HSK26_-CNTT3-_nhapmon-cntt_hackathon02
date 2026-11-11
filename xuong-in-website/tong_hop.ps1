@@ -1,5 +1,5 @@
 # Script: tong_hop.ps1
-# Tac gia: Dao Tuan Dat
+# Tac gia: Nguyen Viet Dung 
 # Ngay tao: 11/11/2026
 Write-Host "Dang tao bao cao..."
 "=== BAO CAO SU CO WEBSITE ===" > .\logs\tong_hop.txt
